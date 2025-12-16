@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+<form id="user-form">
+       <!-- "name" is crucial to link element to JS.
+        "type" provides cerification for things like email.
+        "required" makes sure user cannot peorgress without input 
+        "placeholder" is initial text in input box-->
+            <!-- the more validation added, the more accurate (or sanitised) the data recorded will be -->
+    <fieldset>
+        <legend>Personal Details</legend>
+        <label for="firstName">First Name: </label>
+        <input type="text" name="firstName"></input required>
+        <label for="lastName">Last Name: </label>
+        <input type="text" name="lastName"></input>
+        <label for="age">Age: </label>
+        <input type="number" name="user-age"></input>
+    </fieldset>
+        <fieldset>
+            <legend>Contact Info</legend>
+            <label for="email">Email</label>
+            <input type="text" name="userEmail" required></input>
+            <label for ="phone">Phone</label>
+            <input type="tel" name="userPhone" required></input>
+            <label for="phoneType">Phone Type</label>
+            <select name="phone-type">
+                <!-- disbaled selected makes ther valueless option selected by default but not selectable -->
+                <option value="" disabled selected>Select one</option>
+                <option value="0">Land Line</option>
+                <option value="1">Mobile</option>
+                </select>
+                <label for="city">Your home city</label>
+                <input type="text" name="city"></select>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>About Yourself</legend>
+            <label for="hobbies"></label>
+            <input type="text" name="hobbies" placeholder="Please tell us about one or more of your hobbies..." required></input>
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>

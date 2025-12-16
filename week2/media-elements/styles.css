@@ -1,0 +1,47 @@
+.item {
+  max-width: 200px;
+}
+
+.audio-controls {
+  background-image: url("images/marshall-1280626_1280.jpg");
+  height: 90vh;
+  width: 90vw;
+  border: 5px black solid;
+  border-radius: 30px;
+  margin: 10 10 30 10;
+}
+
+.text {
+  transform: rotate(30deg);
+  border: 2px red solid;
+}
+
+.volume-text {
+  max-width: 80px;
+  position: relative;
+  left: 300px;
+  bottom: 50px;
+  border: 2px red solid;
+  transform: rotate(-65deg);
+}
+
+/* .pause-text {
+}
+
+.stop-text {
+} */
+.volume-slider {
+  position: relative;
+  left: 300px;
+  right: 550px;
+  top: 350px;
+  bottom: 280px;
+  position: absolute;
+  left: 100px;
+  transform: rotate(-65deg);
+}
+
+button,
+input {
+  position: relative;
+}

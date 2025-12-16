@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./src/app.js" type="module" defer></script>
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+<form id="food-form">
+  <legend>Tell us about your favourite food:</legend>
+  <label for="name">What is the dish called? </label>
+  <input name="name" type="text" required></input>
+  <label for="nationality">What nationality is the dish? </label>
+  <input name="nationality" type="text" required></input>
+  <label for="vegetarian">Is it vegetarian? </label>
+  <select name="vegetarian" required>
+    <option value="" disabled selected>Select one</option>
+<option>Yes</option>
+<option>No</option>
+  </select>
+  <label for="rating">Rating it out of 10: </label>
+  <input name="rating" type="number" max="10" required></input>
+  <button type="submit">SUBMIT</button>
+</form>
+  </body>
+</html>

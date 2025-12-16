@@ -1,0 +1,19 @@
+body {
+  min-height: 100vh;
+  background-color: orange;
+}
+
+button {
+  background-color: rgb(128, 116, 202);
+  color: rgb(115, 31, 1);
+  font-size: 1.5rem;
+  height: 50px;
+  width: 200px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+p {
+  margin-left: 100px;
+  font-size: 2rem;
+}

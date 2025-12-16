@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: monospace, sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2020/09/02/08/19/dinner-5537679_1280.png");
+}
+form {
+  display: grid;
+  grid-column: 1fr;
+  gap: 30px;
+  padding: 30px;
+  margin: 50px auto;
+  margin-top: 100px;
+  background-color: rgba(235, 227, 227, 0.35);
+  backdrop-filter: blur(2px);
+}
+
+button {
+  max-width: 100px;
+  color: rgb(24, 17, 147);
+  background-color: rgba(127, 255, 212, 0.63);
+}

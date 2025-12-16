@@ -1,0 +1,77 @@
+header {
+  background: #134b29aa;
+  padding: 5px;
+  text-align: right;
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 3em;
+  margin-right: 2rem;
+  text-shadow: 3px 3px darkslategrey;
+}
+
+a {
+  margin-right: 2em;
+  color: whitesmoke;
+}
+
+body {
+  background-image: url("https://images.immediate.co.uk/production/volatile/sites/10/2018/02/138d469d-4399-4a4d-b3f5-a6d40d1139d1-122e378.jpg");
+}
+
+main {
+  min-height: 200px;
+}
+
+#div1 {
+  width: 45vw;
+  background-color: #e8131370;
+  padding: 10px;
+  border: solid white 2px;
+  border-radius: 10px;
+}
+
+#div2 {
+  position: absolute;
+  right: 0;
+  text-align: right;
+  width: 45vw;
+  background-color: #e8131370;
+  padding: 10px;
+  border: solid white 2px;
+  border-radius: 10px;
+}
+
+#div3 {
+  width: 45vw;
+  background-color: #e8131370;
+  padding: 10px;
+  border: solid white 2px;
+  border-radius: 10px;
+}
+
+.main-div {
+  color: white;
+  backdrop-filter: blur(10px);
+  height: 25vh;
+  padding: 2px;
+  padding-left: 15px;
+  padding-top: 20px;
+  margin-top: 80px;
+}
+
+button {
+  color: green;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  height: 55%;
+}
+
+footer {
+  backdrop-filter: blur(80px);
+  height: 50px;
+  text-align: center;
+  border: solid, white, 3px;
+  margin-top: 40px;
+  margin-bottom: 45px;
+}

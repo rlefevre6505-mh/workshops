@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="audio-controls">
+      <p class="text" class="play-text">PLAY</p>
+      <button id="playbtn">Play</button>
+      <p class="text" class="pause-text">PAUSE</p>
+      <button id="pausebtn">Pause</button>
+      <p class="text" class="stop-text">STOP</p>
+      >
+      <button id="stopbtn">Stop</button>
+      <p class="volume-text" class="volume-text">VOLUME</p>
+      >
+      <input
+        type="range"
+        min="0"
+        max="1"
+        value="50"
+        step="0.01"
+        id="slider"
+        class="volume-slider"
+      />
+    </div>
+
+    <img class="item" src="images/cows-7772777_640.jpg" />
+
+    <audio src="audio/retro-lounge-389644.mp3" controls></audio>
+
+    <video class="item" src="video/306155_tiny.mp4" controls></video>
+  </body>
+</html>

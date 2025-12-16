@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.click-btn {
+  height: 40px;
+  width: 600px;
+}
+
+.hero-image {
+  height: 450px;
+  width: auto;
+}

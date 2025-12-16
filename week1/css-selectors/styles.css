@@ -1,0 +1,23 @@
+.box1 {
+  background-color: peru;
+}
+
+.box2 {
+  background-color: goldenrod;
+}
+
+.box3 {
+  background-color: sandybrown;
+}
+
+.item1:hover {
+  color: slateblue;
+}
+
+.item2:hover {
+  color: royalblue;
+}
+
+.item3:hover {
+  color: skyblue;
+}

@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+main {
+  height: 300px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: black 1px solid;
+}
+
+img {
+  height: 100px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(80, 80, 125, 0.938);
+  color: orange;
+  height: 120px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a {
+  margin: 10px;
+}
