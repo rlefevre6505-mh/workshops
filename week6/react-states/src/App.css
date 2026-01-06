@@ -1,0 +1,19 @@
+* {
+  font-family: monospace;
+  font-size: 1.4rem;
+}
+
+button {
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+p,
+button:hover {
+  cursor: pointer;
+}
+
+p {
+  margin-left: 7rem;
+  max-width: 100px;
+}
