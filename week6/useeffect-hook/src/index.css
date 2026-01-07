@@ -1,0 +1,56 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: azure;
+  background-color: #242323;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+img {
+  width: 40%;
+}
+
+h1 {
+  display: inline;
+  color: goldenrod;
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+li {
+  margin: 0.8rem;
+  padding: 1rem;
+  border: 2px azure solid;
+  border-radius: 2rem;
+}
+
+.photo-p {
+  font-family: monospace;
+  font-size: 0.8rem;
+}
+
+.flex-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  max-width: 12rem;
+  margin: 1rem;
+}
