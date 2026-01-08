@@ -22,7 +22,8 @@ body {
 }
 
 img {
-  width: 40%;
+  max-width: 40%;
+  height: 60vh;
 }
 
 h1 {
@@ -53,4 +54,5 @@ li {
 button {
   max-width: 12rem;
   margin: 1rem;
+  padding: 1rem;
 }

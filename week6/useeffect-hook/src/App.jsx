@@ -35,7 +35,7 @@ export default function App() {
       setPhotos(data.message);
     }
     fetchPhotoData();
-  }, []);
+  }, [showPhoto]);
 
   //return works as normal
   return (
@@ -48,16 +48,19 @@ export default function App() {
         {showPhoto ? <img src={photos} alt="a random dog"></img> : null}
       </div>
       <ul>
-        {items.map((item) => (
-          <li key={item.id}>
-            {item.attributes.name}
-            <p>{item.attributes.description}</p>
-            <p>
-              Max lifespan: {item.attributes.life.max}years<br></br>Max weight:{" "}
-              {item.attributes.male_weight.max}kg
-            </p>
-          </li>
-        ))}
+        {items.map((item) =>
+          //Conditional rendering only breeds beginning with "A", only running the map function on the array item if it meets the condition
+          item.attributes.name.charAt(0) === "A" ? (
+            <li key={item.id}>
+              {item.attributes.name}
+              <p>{item.attributes.description}</p>
+              <p>
+                Max lifespan: {item.attributes.life.max}years<br></br>Max
+                weight: {item.attributes.male_weight.max}kg
+              </p>
+            </li>
+          ) : null
+        )}
       </ul>
     </div>
   );
